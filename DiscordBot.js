@@ -30,7 +30,7 @@ class DiscordBot {
       shardCount: parseInt(process.env.SHARD_COUNT, 10),
       apiRequestMethod: config.apiRequestMethod || 'sequential',
       disabledEvents: ['TYPING_START', 'VOICE_STATE_UPDATE', 'PRESENCE_UPDATE', 'MESSAGE_DELETE', 'MESSAGE_UPDATE'],
-      owner: config.owner || '195603131697070081',
+      owner: config.owner || '566500819168526346',
       commandPrefix: config.commandPrefix || '-',
       unknownCommandResponse: false
     })
